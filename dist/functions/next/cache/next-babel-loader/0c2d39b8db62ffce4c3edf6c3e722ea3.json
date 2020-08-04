@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled from 'styled-components';\nvar ListWrapper = styled.div.withConfig({\n  displayName: \"liststyle__ListWrapper\",\n  componentId: \"sc-1h7vira-0\"\n})([\"\"]);\nexport { ListWrapper };","map":null,"metadata":{},"sourceType":"module"}
