@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Alice', serif;
     margin-top: 0;
   }
   p{

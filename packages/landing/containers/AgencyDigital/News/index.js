@@ -21,8 +21,8 @@ const News = () => {
       <Container>
 
         <SectionHeading
-          slogan=""
-          title=""
+          slogan="It's time to start training and caring for your emotional health — where you are, with what you have available."
+          title="What do you need, right now?"
         />
 
         <ContentWrapper>

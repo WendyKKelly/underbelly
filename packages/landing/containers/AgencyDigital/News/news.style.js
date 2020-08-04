@@ -48,11 +48,11 @@ export const BlogPost = styled.div`
     }
   }
   h4 {
-    font-family: Arvo;
+    font-family: Alice;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 70px;
     line-height: 30px;
-    color: #0f2137;
+    color: #545454;
     margin-bottom: 0;
     margin-top: 15px;
   }

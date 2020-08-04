@@ -31,12 +31,9 @@ export default () => {
           {/* Load google fonts */}
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Alice&family=Raleway&display=swap" rel="stylesheet"
           />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
-          />
+      
         </Head>
         <ResetCSS />
         <GlobalStyle />

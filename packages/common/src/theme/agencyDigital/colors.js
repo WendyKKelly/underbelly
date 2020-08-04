@@ -1,9 +1,9 @@
 const colors = {
   transparent: 'transparent', // 0
-  black: '#000000', // 1
+  black: '#545454', // 1
   white: '#ffffff', // 2
-  text: '#343D48', // 3
-  textPrimary: '#02073E', // 4
+  text: '#545454', // 3
+  textPrimary: '#545454', // 4
   labelColor: '#767676', // 5
   inactiveField: '#f2f2f2', // 6
   border: '#EDEEF0',
@@ -16,7 +16,7 @@ const colors = {
   yellow: '#fdb32a', // 12
   yellowHover: '#F29E02', // 13
   linkColor: '#3183FF',
-  slogan: '#00A99D',
+  slogan: '#8dbb85',
   primaryBoxShadow: ' 0px 9px 19.74px 1.26px rgba(82, 104, 219, 0.57) ',
 };
 
