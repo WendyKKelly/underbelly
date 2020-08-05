@@ -12,10 +12,7 @@ import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import Navbar from '../containers/AgencyDigital/Navbar';
 import Banner from '../containers/AgencyDigital/Banner';
 import Service from '../containers/AgencyDigital/Service';
-import CustomerSupport from '../containers/AgencyDigital/CustomerSupport';
-import Pricing from '../containers/AgencyDigital/Pricing';
-import Support from '../containers/AgencyDigital/Support';
-import OurCustomer from '../containers/AgencyDigital/OurCustomer';
+
 import News from '../containers/AgencyDigital/News';
 import Footer from '../containers/AgencyDigital/Footer';
 
@@ -33,7 +30,7 @@ export default () => {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Alice&family=Raleway&display=swap" rel="stylesheet"
           />
-      
+
         </Head>
         <ResetCSS />
         <GlobalStyle />

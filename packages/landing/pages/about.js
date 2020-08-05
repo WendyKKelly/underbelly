@@ -10,11 +10,11 @@ import {
 } from '../containers/AgencyDigital/agencyDigital.style';
 import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import Navbar from '../containers/AgencyDigital/Navbar';
-import About from '../containers/AgencyDigital/About';
+import AboutCopy from '../containers/AgencyDigital/AboutCopy';
 
 import Footer from '../containers/AgencyDigital/Footer';
 
-export default () => {
+const About = () => {
   return (
     <ThemeProvider theme={theme}>
       <Fragment>
@@ -26,7 +26,7 @@ export default () => {
           {/* Load google fonts */}
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Alice&family=Raleway&display=swap" rel="stylesheet"
           />
 
         </Head>
@@ -39,7 +39,7 @@ export default () => {
             </DrawerProvider>
           </Sticky>
 
-           <About />
+           <AboutCopy />
 
 
           <Footer />
@@ -48,3 +48,4 @@ export default () => {
     </ThemeProvider>
   );
 };
+export default About;
