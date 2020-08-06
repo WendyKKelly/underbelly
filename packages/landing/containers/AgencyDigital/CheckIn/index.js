@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon } from 'react-icons-kit';
-import { ic_check_circle } from 'react-icons-kit/md/ic_check_circle';
+import {pencil2} from 'react-icons-kit/icomoon/pencil2';
 
 import Container from 'common/src/components/UI/ContainerTwo';
 import Text from 'common/src/components/Text';
@@ -15,7 +15,7 @@ import SectionWrapper, {
   ListGroup,
 } from './checkin.style';
 import { data } from 'common/src/data/AgencyDigital';
-import illustration from 'common/src/assets/image/agencyDigital/banner.png';
+import illustration from 'common/src/assets/image/agencyDigital/checkin.png';
 
 const CheckIn = () => {
   return (
@@ -39,9 +39,9 @@ const CheckIn = () => {
                   text={item.title}
                   icon={
                     <Icon
-                      icon={ic_check_circle}
+                      icon={pencil2}
                       size={18}
-                      style={{ color: '#56BBD0' }}
+                      style={{ color: '#8dbb85' }}
                     />
                   }
                 />
