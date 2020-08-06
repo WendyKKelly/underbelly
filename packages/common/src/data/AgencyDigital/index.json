@@ -25,6 +25,27 @@
       "offset": "70"
     }
   ],
+  "aboutus": [{
+      "id": 1,
+      "title": "Amazing communication experience.",
+      "icon": "flaticon-next"
+    },
+    {
+      "id": 2,
+      "title": "Best designing experience with trending tools and sizes.",
+      "icon": "flaticon-next"
+    },
+    {
+      "id": 3,
+      "title": "Training and communication method remotely.",
+      "icon": "flaticon-next"
+    },
+    {
+      "id": 4,
+      "title": "24/7 Hour onine supports.",
+      "icon": "flaticon-next"
+    }
+  ],
   "services": [{
       "id": 1,
       "icon": "../../assets/image/agencyDigital/services/1.png",
@@ -68,13 +89,231 @@
       "link": "#"
     }
   ],
+  "workHardList": [{
+      "id": 1,
+      "title": "Medical and vision"
+    },
+    {
+      "id": 2,
+      "title": "Life insurance"
+    },
+    {
+      "id": 3,
+      "title": "400(k) savings"
+    },
+    {
+      "id": 4,
+      "title": "HSAs and FSAs"
+    }
+  ],
+  "pricing": [{
+      "id": 1,
+      "package_name": "Starter Pack",
+      "price": "18.99",
+      "trial_day": 15,
+      "isRecommended": false,
+      "features": [{
+          "id": 1,
+          "name": "Full Access Library",
+          "isAvailable": true
+        },
+        {
+          "id": 2,
+          "name": "Multiple user",
+          "isAvailable": true
+        },
+        {
+          "id": 3,
+          "name": "Refund Policy",
+          "isAvailable": false
+        },
+        {
+          "id": 4,
+          "name": "Google Analytics",
+          "isAvailable": false
+        },
+        {
+          "id": 5,
+          "name": "24/7 support",
+          "isAvailable": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "package_name": "Premium Pack",
+      "price": "29.99",
+      "trial_day": 30,
+      "isRecommended": true,
+      "features": [{
+          "id": 1,
+          "name": "Full Access Library",
+          "isAvailable": true
+        },
+        {
+          "id": 2,
+          "name": "Multiple user",
+          "isAvailable": true
+        },
+        {
+          "id": 3,
+          "name": "Refund Policy",
+          "isAvailable": true
+        },
+        {
+          "id": 4,
+          "name": "Google Analytics",
+          "isAvailable": false
+        },
+        {
+          "id": 5,
+          "name": "24/7 support",
+          "isAvailable": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "package_name": "Custom Pack",
+      "price": "23.99",
+      "trial_day": 30,
+      "isRecommended": false,
+      "features": [{
+          "id": 1,
+          "name": "Full Access Library",
+          "isAvailable": true
+        },
+        {
+          "id": 2,
+          "name": "Multiple user",
+          "isAvailable": true
+        },
+        {
+          "id": 3,
+          "name": "Refund Policy",
+          "isAvailable": true
+        },
+        {
+          "id": 4,
+          "name": "Google Analytics",
+          "isAvailable": true
+        },
+        {
+          "id": 5,
+          "name": "24/7 support",
+          "isAvailable": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "package_name": "Ultimate Pack",
+      "price": "35.99",
+      "trial_day": 45,
+      "isRecommended": false,
+      "features": [{
+          "id": 1,
+          "name": "Full Access Library",
+          "isAvailable": true
+        },
+        {
+          "id": 2,
+          "name": "Multiple user",
+          "isAvailable": true
+        },
+        {
+          "id": 3,
+          "name": "Refund Policy",
+          "isAvailable": true
+        },
+        {
+          "id": 4,
+          "name": "Google Analytics",
+          "isAvailable": true
+        },
+        {
+          "id": 5,
+          "name": "24/7 support",
+          "isAvailable": true
+        }
+      ]
+    }
+  ],
+  "features": [{
+      "id": 1,
+      "icon": "flaticon-flask",
+      "title": "Search Optimization",
+      "description": "By using Search Engine Optimization, You will get more Clients"
+    },
+    {
+      "id": 2,
+      "icon": "flaticon-pencil-case",
+      "title": "Ui/UX Design",
+      "description": "We provide the best UI/UX Design by following the latest trends of the market ."
+    },
+    {
+      "id": 3,
+      "icon": "flaticon-ruler",
+      "title": "Wireframing Task",
+      "description": "We respect our customer opinions and deals with them with perfect wireframing "
+    },
+    {
+      "id": 4,
+      "icon": "flaticon-startup",
+      "title": "Business Solutions",
+      "description": "We are commited to provide proper business solutions with reasonable pricing"
+    },
+    {
+      "id": 5,
+      "icon": "flaticon-briefing",
+      "title": "Business Analysis",
+      "description": "A day to day report about your ongoing business for proper understanding"
+    },
+    {
+      "id": 6,
+      "icon": "flaticon-creative",
+      "title": "Content Management",
+      "description": "Proper Content Management is important to find out the real clients for your agencies"
+    }
+  ],
+  "blog": [{
+      "id": 1,
+      "title": "Real home corporation",
+      "thumbnail_url": "../../assets/image/agency/blog/blog-img1.png",
+      "date": "November 02, 2018",
+      "postLink": "#1"
+    },
+    {
+      "id": 2,
+      "title": "Sheltech developer ltd.",
+      "thumbnail_url": "../../assets/image/agency/blog/blog-img2.png",
+      "date": "November 12, 2018",
+      "postLink": "#2"
+    },
+    {
+      "id": 3,
+      "title": "Alt architecture co.",
+      "thumbnail_url": "../../assets/image/agency/blog/blog-img3.png",
+      "date": "December 09, 2018",
+      "postLink": "#3"
+    }
+  ],
+  "helps": [{
+      "id": 1,
+      "icon": "../../assets/image/agencyDigital/support1.png",
+      "title": "Email client support",
+      "desc": "Ultimate access to all credit popular exercises and assessments materials"
+    },
+
+
+  ],
 
   "newsFeed": [{
       "id": 1,
       "image": "../../assets/image/agencyDigital/news/1.png",
       "title": "",
-      "desc": "",
-      "link": "#"
+      "desc": "Curious about your emotional wellness? Assessments are a great way to learn more about yourself, what makes you tick, and how you can best take good care of your beautiful self.",
+      "link": "#check-in"
     },
     {
       "id": 2,

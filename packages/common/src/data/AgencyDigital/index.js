@@ -10,6 +10,10 @@ import news1 from '../../assets/image/agencyDigital/news/1.png';
 import news2 from '../../assets/image/agencyDigital/news/2.png';
 import news3 from '../../assets/image/agencyDigital/news/3.png';
 import news4 from '../../assets/image/agencyDigital/news/4.png';
+import BlogImage1 from '../../assets/image/agencyDigital/blog/blog-img1.png';
+import BlogImage2 from '../../assets/image/agencyDigital/blog/blog-img2.png';
+import BlogImage3 from '../../assets/image/agencyDigital/blog/blog-img3.png';
+
 
 export const data = {
   navItems: [
@@ -37,6 +41,239 @@ export const data = {
       label: 'Media',
       path: '#blog',
       offset: '70',
+    },
+  ],
+  blog: [
+    {
+      id: 1,
+      title: 'Real home corporation',
+      thumbnail_url: BlogImage1,
+      date: 'November 02, 2018',
+      postLink: '#1',
+    },
+    {
+      id: 2,
+      title: 'Sheltech developer ltd.',
+      thumbnail_url: BlogImage2,
+      date: 'November 12, 2018',
+      postLink: '#2',
+    },
+    {
+      id: 3,
+      title: 'Alt architecture co.',
+      thumbnail_url: BlogImage3,
+      date: 'December 09, 2018',
+      postLink: '#3',
+    },
+  ],
+  features: [
+    {
+      id: 1,
+      icon: 'flaticon-flask',
+      title: 'Journaling',
+      description:
+        'There are so many ways to do this exercise. Old school, audio, video, find your best way to a daily journaling practice.',
+    },
+    {
+      id: 2,
+      icon: 'flaticon-pencil-case',
+      title: 'Inquiry',
+      description:
+        'Take some time each day to check in with yourself.',
+    },
+    {
+      id: 3,
+      icon: 'flaticon-ruler',
+      title: 'Quests',
+      description:
+        'This is my preferred term for daily exercises to challenge yourself to continue your story: become a stronger, more flexible, more emotionally fit hero of your story.',
+    },
+    {
+      id: 4,
+      icon: 'flaticon-startup',
+      title: 'Self Care',
+      description:
+        'This looks different for everyone. Take time, starting today, to build out your own self care kit, so when the time comes that you need a little self care first aid, you are ready.',
+    },
+    {
+      id: 5,
+      icon: 'flaticon-briefing',
+      title: 'Meditation and Prayer',
+      description:
+        'There are many ways to approach meditation and prayer. Take time to find your own practice.',
+    },
+    {
+      id: 6,
+      icon: 'flaticon-creative',
+      title: 'Therapy',
+      description:
+        'No one does this alone. Every hero needs a Guide. Find yours and begin your practice.',
+    },
+  ],
+  workHardList: [
+    { id: 1, title: 'OCEAN Big 5 ' },
+    { id: 2, title: 'Enneagram Assessment' },
+    { id: 3, title: 'Jungian Archetypes' },
+    { id: 4, title: '16 Personalities' },
+  ],
+  pricing: [
+    {
+      id: 1,
+      package_name: 'Starter Pack',
+      price: '18.99',
+      trial_day: 15,
+      isRecommended: false,
+      features: [
+        {
+          id: 1,
+          name: 'Full Access Library',
+          isAvailable: true,
+        },
+        {
+          id: 2,
+          name: 'Multiple user',
+          isAvailable: true,
+        },
+        {
+          id: 3,
+          name: 'Refund Policy',
+          isAvailable: false,
+        },
+        {
+          id: 4,
+          name: 'Google Analytics',
+          isAvailable: false,
+        },
+        {
+          id: 5,
+          name: '24/7 support',
+          isAvailable: false,
+        },
+      ],
+    },
+    {
+      id: 2,
+      package_name: 'Premium Pack',
+      price: '29.99',
+      trial_day: 30,
+      isRecommended: true,
+      features: [
+        {
+          id: 1,
+          name: 'Full Access Library',
+          isAvailable: true,
+        },
+        {
+          id: 2,
+          name: 'Multiple user',
+          isAvailable: true,
+        },
+        {
+          id: 3,
+          name: 'Refund Policy',
+          isAvailable: true,
+        },
+        {
+          id: 4,
+          name: 'Google Analytics',
+          isAvailable: false,
+        },
+        {
+          id: 5,
+          name: '24/7 support',
+          isAvailable: false,
+        },
+      ],
+    },
+    {
+      id: 3,
+      package_name: 'Custom Pack',
+      price: '23.99',
+      trial_day: 30,
+      isRecommended: false,
+      features: [
+        {
+          id: 1,
+          name: 'Full Access Library',
+          isAvailable: true,
+        },
+        {
+          id: 2,
+          name: 'Multiple user',
+          isAvailable: true,
+        },
+        {
+          id: 3,
+          name: 'Refund Policy',
+          isAvailable: true,
+        },
+        {
+          id: 4,
+          name: 'Google Analytics',
+          isAvailable: true,
+        },
+        {
+          id: 5,
+          name: '24/7 support',
+          isAvailable: false,
+        },
+      ],
+    },
+    {
+      id: 4,
+      package_name: 'Ultimate Pack',
+      price: '35.99',
+      trial_day: 45,
+      isRecommended: false,
+      features: [
+        {
+          id: 1,
+          name: 'Full Access Library',
+          isAvailable: true,
+        },
+        {
+          id: 2,
+          name: 'Multiple user',
+          isAvailable: true,
+        },
+        {
+          id: 3,
+          name: 'Refund Policy',
+          isAvailable: true,
+        },
+        {
+          id: 4,
+          name: 'Google Analytics',
+          isAvailable: true,
+        },
+        {
+          id: 5,
+          name: '24/7 support',
+          isAvailable: true,
+        },
+      ],
+    },
+  ],
+  aboutus: [
+    {
+      id: 1,
+      title: 'Amazing communication experience.',
+      icon: 'flaticon-next',
+    },
+    {
+      id: 2,
+      title: 'Best designing experience with trending tools and sizes.',
+      icon: 'flaticon-next',
+    },
+    {
+      id: 3,
+      title: 'Training and communication method remotely.',
+      icon: 'flaticon-next',
+    },
+    {
+      id: 4,
+      title: '24/7 Hour onine supports.',
+      icon: 'flaticon-next',
     },
   ],
   services: [
@@ -90,7 +327,16 @@ export const data = {
     },
 
   ],
+  helps: [
+    {
+      id: 1,
+      icon: support1,
+      title: 'Psychology Today <Find a Therapist>',
+      desc:
+        'A great list of therapists you can serach for by location and other preferences.',
+    },
 
+  ],
   newsFeed: [
     {
       id: 1,
@@ -98,28 +344,28 @@ export const data = {
       title: '',
       desc:
         'Curious about your emotional wellness? Assessments are a great way to learn more about yourself, what makes you tick, and how you can best take good care of your beautiful self.',
-      link: '/checkup',
+      link: '#check-in',
     },
     {
       id: 2,
       image: news2,
       title: '',
       desc: 'You can (and should) train your emotional self as much as you train your physcial body. If you take steps each day to get emotionally stronger and more flexible, when storms come, you will be ready',
-      link: '/gym',
+      link: '#train',
     },
     {
       id: 3,
       image: news3,
       title: '',
       desc: 'Are you feeling pretty good but want to learn more about how your emotional self ticks? Start here to read, listen, and learn about how to care for your wild and precious self.',
-      link: '/learn',
+      link: '#learn',
     },
     {
       id: 4,
       image: news4,
       title: '',
       desc: 'Everybody hurts sometimes. It happens to all of us. If you are suffering now, take needed next steps to care for yourself — Now.',
-      link: '/sad',
+      link: '#sad',
     },
   ],
   footer: [
@@ -283,7 +529,7 @@ export const data = {
     {
       id: 2,
       title: 'About',
-      link: '/about',
+      link: '#about',
     },
     {
       id: 3,

@@ -12,7 +12,12 @@ import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import Navbar from '../containers/AgencyDigital/Navbar';
 import Banner from '../containers/AgencyDigital/Banner';
 import Service from '../containers/AgencyDigital/Service';
-
+import AboutUsSection from '../containers/AgencyDigital/AboutUsSection';
+import AboutCopy from '../containers/AgencyDigital/AboutCopy';
+import CheckIn from '../containers/AgencyDigital/CheckIn';
+import BlogSection from '../containers/AgencyDigital/BlogSection';
+import Sad from '../containers/AgencyDigital/Sad';
+import FeatureSection from '../containers/AgencyDigital/FeatureSection';
 import News from '../containers/AgencyDigital/News';
 import Footer from '../containers/AgencyDigital/Footer';
 
@@ -44,6 +49,13 @@ export default () => {
             <News />
           <Service />
 
+
+          <CheckIn />
+          <BlogSection />
+          <FeatureSection />
+          <Sad />
+
+<AboutCopy />
 
 
           <Footer />
