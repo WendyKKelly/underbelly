@@ -18,8 +18,8 @@ const FeatureSectionWrapper = styled.section`
       position: relative;
       background: linear-gradient(
         -60deg,
-        rgba(241, 39, 17, 0.7),
-        rgba(245, 175, 25, 0.7)
+        rgba(236,111,72,0.7),
+        rgba(255,239,208, 0.7)
       );
       .flaticon-flask {
         &:before {
@@ -88,7 +88,7 @@ const FeatureSectionWrapper = styled.section`
           .icon__wrapper {
             background: linear-gradient(
               -60deg,
-              rgba(50, 207, 167, 0.75),
+              rgba(141,187,133, 0.75),
               rgba(150, 201, 61, 0.75)
             );
           }
@@ -99,7 +99,7 @@ const FeatureSectionWrapper = styled.section`
           .icon__wrapper {
             background: linear-gradient(
               -60deg,
-              rgba(236, 0, 140, 0.75),
+              rgba(255,210,16, 0.75),
               rgba(255, 103, 103, 0.75)
             );
           }
@@ -110,7 +110,7 @@ const FeatureSectionWrapper = styled.section`
           .icon__wrapper {
             background: linear-gradient(
               -60deg,
-              rgba(47, 128, 237, 0.75),
+              rgba(141,187,133, 0.75),
               rgba(86, 204, 242, 0.75)
             );
           }
@@ -121,7 +121,7 @@ const FeatureSectionWrapper = styled.section`
           .icon__wrapper {
             background: linear-gradient(
               -60deg,
-              rgba(110, 72, 170, 0.75),
+              rgba(255,210,16, 0.75),
               rgba(192, 91, 210, 0.75)
             );
           }

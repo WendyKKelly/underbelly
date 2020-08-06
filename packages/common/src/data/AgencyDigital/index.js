@@ -46,44 +46,44 @@ export const data = {
   blog: [
     {
       id: 1,
-      title: 'Real home corporation',
+      title: 'Train for Joy',
       thumbnail_url: BlogImage1,
-      date: 'November 02, 2018',
+      date: 'March 13, 2020',
       postLink: '#1',
     },
     {
       id: 2,
-      title: 'Sheltech developer ltd.',
+      title: 'First Aid for Grief',
       thumbnail_url: BlogImage2,
-      date: 'November 12, 2018',
+      date: 'April 8, 2020',
       postLink: '#2',
     },
     {
       id: 3,
-      title: 'Alt architecture co.',
+      title: 'Provocation: How to Use it for Good',
       thumbnail_url: BlogImage3,
-      date: 'December 09, 2018',
+      date: 'January 4, 2020',
       postLink: '#3',
     },
   ],
   features: [
     {
       id: 1,
-      icon: 'flaticon-flask',
+      icon: 'flaticon-pencil-case',
       title: 'Journaling',
       description:
         'There are so many ways to do this exercise. Old school, audio, video, find your best way to a daily journaling practice.',
     },
     {
       id: 2,
-      icon: 'flaticon-pencil-case',
+      icon: 'flaticon-creative',
       title: 'Inquiry',
       description:
         'Take some time each day to check in with yourself.',
     },
     {
       id: 3,
-      icon: 'flaticon-ruler',
+      icon: 'flaticon-magnifying-glass',
       title: 'Quests',
       description:
         'This is my preferred term for daily exercises to challenge yourself to continue your story: become a stronger, more flexible, more emotionally fit hero of your story.',
@@ -97,14 +97,14 @@ export const data = {
     },
     {
       id: 5,
-      icon: 'flaticon-briefing',
+      icon: 'flaticon-hourglass',
       title: 'Meditation and Prayer',
       description:
         'There are many ways to approach meditation and prayer. Take time to find your own practice.',
     },
     {
       id: 6,
-      icon: 'flaticon-creative',
+      icon: 'flaticon-group',
       title: 'Therapy',
       description:
         'No one does this alone. Every hero needs a Guide. Find yours and begin your practice.',
